@@ -8,7 +8,7 @@ import Products from './pages/Products';
 export default function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/teste-ga4">
       <nav>
         <Link to="/">Home</Link> | <Link to="/products">Produtos</Link> | <Link to="/cart">Carrinho</Link>
       </nav>
